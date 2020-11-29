@@ -6,4 +6,4 @@ before_install:
     - docker build -t nakvanna/docker-learning -f Dockerfile.dev .
 
 script:
-    - docker run nakvanna/docker-learning -- --coverage
+    - docker run nakvanna/docker-learning
